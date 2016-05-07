@@ -1,0 +1,303 @@
+
+body {
+  background: url("matrix.jpeg");
+  background-repeat: repeat;
+  background-attachment: fixed, scroll;
+}
+
+
+li {
+ list-style-type: none;
+ color: white;
+}
+
+a {
+ text-decoration: none;
+}
+
+header {
+ background-color: none;
+}
+
+a, a:visited {
+ color:white;
+}
+
+a:hover {
+ color:grey;
+}
+
+.bg_white {
+  padding-top: 1em;
+  background-color: lightgrey;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.social_media {
+
+  float: left;
+
+  padding-bottom: 2em;
+  /*padding-top: -2em;*/
+ font-size: 1em;
+ font-family: "Courier New";
+ font-style: italic;
+ /*padding: 0;*/
+ /*margin-bottom: em;*/
+
+ display: flex;
+ z-index: 9999;
+}
+
+.social_media li {
+
+ padding: 0.5em 0 0.5em 1em;
+ z-index: 9999;
+}
+
+#name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  font-family: "Courier New";
+  font-style: italic;
+  margin-top: 5px;
+  position:absolute;
+  right: 1em;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  z-index: 9999;
+}
+
+#name:hover {
+  color: grey;
+  font-size: 1.2em;
+  position: fixed;
+  right: 1em;
+  z-index: 9999;
+}
+
+#soft_dev {
+  float:right;
+  font-size: 1.2em;
+  color: grey;
+  padding-top: 30px;
+  font-family: "Courier New";
+  font-style: italic;
+  font-weight: bold;
+  position:relative;
+  right: 1em;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function:ease-in;
+  z-index: 500;
+}
+
+#soft_dev:hover {
+  color: white;
+  font-size: 1.2em;
+  opacity: 1.0;
+  position: relative;
+  right: 1em;
+  z-index: 500;
+
+}
+
+
+}
+.my_photo {
+  /*float:right;*/
+  /*height: 1em;
+  weight: 1em;*/
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+.projects {
+  float: left;
+  padding-top: .5em;
+  font-size: 1em;
+  color: white;
+  font-family: "Courier New";
+  font-style: italic;
+  /*z-index: 9999;*/
+}
+
+/*.projects:hover {
+  color: grey;
+  z-index: 9999;
+}*/
+
+
+
+.main_container {
+  float:left;
+  padding-top: .5em;
+  font-size: 1em;
+  color: white;
+  font-family: "Courier New";
+  font-style: italic;
+}
+/*
+.main_container:hover {
+  color: grey;
+}*/
+
+.skills_list {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-right: 1em;
+z-index: 9999;
+}
+  /*font-size: 5em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-style: solid;
+  background-color:darkgrey;
+  -moz-border-radius: 10px 20px 30px 40px / 15px 30px 45px 60px;*/*/
+  /*border-color: black;
+  border-radius: 1em 2em 1em 2em;*/
+/*}*/
+
+.parrot {
+  position:relative;
+  z-index:0;
+}
+
+
+.bottom {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    z-index: 9999;
+  /*top:0;
+  left:0;*/
+  /*z-index:1;*/
+}
+
+.bottom:hover {
+  /*opacity: 0.5;*/
+  width: 63%;
+  -webkit-filter: grayscale(100%);
+  z-index: 9999;
+}
+
+.repl {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.repl:hover {
+  /*opacity: 0.5;*/
+  width: 63%;
+  -webkit-filter: grayscale(100%);
+  z-index: 9999;
+}
+
+p:first-of-type {
+  padding-top: 0.5em;
+  text-align: center;
+  color: white;
+  opacity: .8;
+}
+
+p {
+  text-align: center;
+  color: white;
+  opacity: .8;
+}
+
+
+.bg_bottom {
+   padding-bottom: 1em;
+   background-color: white;
+   opacity: 0.2;
+   /*top: 3em;*/
+   /*bottom: 5em;*/
+   /*z-index: 9999;*/
+ }
+
+.buffer {
+  padding-bottom: 3em;
+
+}
+
+/*nav {
+
+}*/
+
+/*.bull_dog {
+  opacity: 0.5;
+  position: relative;
+  z-index: 500;
+}*/
+
+/*.my_name_background {*/
+  /*background-color: black;*/
+  /*opacity: 0.5;*/
+  /*z-index: 1;*/
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+  /*background-color: #5a677e;
+  /*border: 5px solid black;*/
+  /*padding: 9px 10px;
+  margin-top: 8px;
+
+  margin-bottom: 8px;*/
+
+
+
+/*@media only screen and (min-width: 1200px) {
+  body {
+    width: 850px;
+    margin: 0 auto 0 auto;
+  }
+
+  #events {
+    flex-direction: row;
+  }
+}*/
+
+/* iPad */
+/*@media only screen and (min-width: 750px) {
+  body {
+    width: 700px;
+    margin: 0 auto 0 auto;
+  }
+}*/
